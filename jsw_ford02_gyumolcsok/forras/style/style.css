@@ -1,0 +1,79 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    max-width: 100vw;
+    min-height: 100vh;
+}
+
+nav {
+    height: 600px;
+    background-image: url(../img/banner_fruits.png);
+    background-position-x: bottom;
+    background-position-y: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    padding: 30px;
+
+    div:first-child{
+        width: 300px;
+        height: 300px;
+        background-color: rgba(2, 138, 158, 0.75);
+        border-radius: 50%;
+        border: 10px double white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 2.5rem;
+        font-weight: bold;
+        color: white;
+        font-variant: small-caps;
+        text-shadow: 5px 2px 4px black;
+    }
+
+}
+    #navnav{
+        display: flex;
+        flex-direction: row;
+        background-color: rgb(2, 138, 158);
+        width: 100%;
+
+        p {
+            margin: 10px;
+
+            a{
+                text-decoration: none;
+                color: white;
+                padding: 2px;
+            }
+            a:hover {
+                border-top: 3px double white;
+                border-bottom: 3px double white;
+            }
+        }
+    }
+
+main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Heattenschweiler', sans-serif;
+    letter-spacing: 1.5px;
+}
+
+main > section{
+    padding: 40px;
+    h2 {
+        color: rgb(9, 81, 92) ;
+    }
+}
+
+img {
+    float: right;
+    width: 250px;
+}
