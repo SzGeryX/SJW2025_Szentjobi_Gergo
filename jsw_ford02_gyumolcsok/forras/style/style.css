@@ -77,3 +77,13 @@ img {
     float: right;
     width: 250px;
 }
+
+details {
+    border: 1px dotted rgb(2, 138, 158);
+        background-color:rgba(2, 138, 158, 0.8) ;
+
+    summary{
+        background-color:rgb(2, 138, 158) ;
+        color: white;
+    }
+}
